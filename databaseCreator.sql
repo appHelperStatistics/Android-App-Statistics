@@ -2,7 +2,6 @@ CREATE TABLE `access` (
   `access_id` int(11) NOT NULL AUTO_INCREMENT,
   `access_name_id` int(10) unsigned NOT NULL DEFAULT '0',
   `access_time` datetime DEFAULT CURRENT_TIMESTAMP,
-  `is_first_view` tinyint(4) DEFAULT '1',
   PRIMARY KEY (`access_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1
 
