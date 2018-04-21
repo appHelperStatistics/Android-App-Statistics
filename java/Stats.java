@@ -30,7 +30,7 @@ public class Stats extends AsyncTask<String, Void, Void>
     {
         if( statistic == null )
         {
-            String url = "https://insert_your_domain.domain" + php + ".php";
+            String url = "https://insert_your_domain.domain/update_file_folder/" + php + ".php";
             Stats.statistic = new Stats( ctx, code, url );
         }
     }
