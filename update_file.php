@@ -1,8 +1,13 @@
 <?php
-	$APP_ID    = 0;
-	$STAT_CODE = '12345';
+	$APP_ID      = 0;
+	$STAT_CODE   = '12345';
+
+	$DB_ADDRESS  = '123.123.123.123';
+	$DB_USER     = 'TESTUSER';
+	$DB_PASSWORD = 'PASSWORD';
+	$DB_NAME     = 'TESTDB';
 	
-	$con=mysqli_connect( "123.123.123.123", "DB_NAME", "DB_PASSWORD", "DB_USER" );
+	$con=mysqli_connect( $DB_ADDRESS, $DB_USER, $DB_PASSWORD, $DB_NAME );
 	
 	if ( mysqli_connect_errno( $con ) ) 
 	{
